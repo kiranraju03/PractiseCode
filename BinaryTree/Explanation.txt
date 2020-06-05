@@ -1,0 +1,22 @@
+Trees
+
+- Trees are a type of graphs, without direction.
+- Trees are composed of nodes, each node can accommodate any data-type of a particular type.
+- Each tree can have a root node, with 0/more child nodes and each child node can further have 0/more child nodes.
+- The nodes that do not have any child nodes are treated as leaf nodes of the tree.
+
+Types of trees:
+- N-ary Tree: a tree that has more than 2 child nodes in any one node/multiple nodes.
+- Binary Tree: a tree that has maximum of 2 child nodes in any one/multiple nodes.
+    - Binary Search Tree(BST) : a type of Binary tree, that follows the rule for each node N to have,
+                            Left descendants <= N < Right descendants
+    - Complete Binary Tree: a Binary Tree, that has all its levels filled, except for the leaf/last nodes level, where
+                            the nodes are filled from left to right
+    - Full Binary Tree: a Tree that has exactly 2 child nodes at each level of the tree
+    - Perfect Binary Tree: a Tree that is both Full and Complete Binary Tree, so each level will have maximum possible
+                            nodes in a binary tree. (2^k - 1) nodes, with k levels.
+
+Tree Traversals:
+- In-Order Traversal : Left > Root > Right : This order will give ascending scheme from a BST.
+- Pre-Order Traversal : Root > Left > Right : Root is traversed first, so pre
+- Post-Order Traversal : Left > Right > Root : Root is traversed at the end, so post
